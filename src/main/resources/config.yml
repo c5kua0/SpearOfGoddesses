@@ -1,0 +1,46 @@
+# Spear of Goddesses Configuration
+
+# Owner name (only this player can use /spear)
+owner: "TUKOSHIBU"
+
+# Spear Display Name
+spear-name: "§6§lSpear of Goddesses"
+
+# Normal Attack Settings
+normal-attack:
+  base-damage: 23
+  poison-duration: 4
+  fire-duration: 3
+  divine-lightning-chance: 0.05
+
+# Skill 1 - Greed
+greed:
+  stolen-effect-duration: 10
+
+# Skill 2 - Authority of Greed
+authority-of-greed:
+  radius: 6
+  slowness-level: 2
+  weakness-level: 2
+  effect-duration: 6
+  cooldown: 25
+
+# Skill 3 - Greedy Claim
+greedy-claim:
+  radius: 8
+  slowness-level: 3
+  weakness-level: 3
+  effect-duration: 8
+  bonus-damage: 5.0
+  cooldown: 20
+
+# Ultimate - Everything is Mine
+everything-is-mine:
+  radius: 8
+  slowness-level: 3
+  weakness-level: 2
+  enemy-effect-duration: 8
+  strength-level: 2
+  resistance-level: 1
+  owner-effect-duration: 8
+  cooldown: 60
